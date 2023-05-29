@@ -5,50 +5,456 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img
-        src="./assets/bowtie-cat.png" 
-        alt="Profile image of cat wearing a bow tie." 
-      />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <nav>
+        <ul>
+          <li><a href="#html-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/></a></li>
+          <li><a href="#css-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"/></a></li>
+          <li><a href="#javascript-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript"/></a></li>
+          <li><a href="#react-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/></a></li>
+          <li><a href="#angular-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular"/></a></li>
+          <li><a href="#vue-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js"/></a></li>
+          <li><a href="#bootstrap-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"/></a></li>
+          <li><a href="#sass-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass"/></a></li>
+          <li><a href="#typescript-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript"/></a></li>
+          <li><a href="#webpack-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="Webpack"/></a></li>
+          <li><a href="#babel-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg" alt="Babel"/></a></li>
+          <li><a href="#jquery-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="JQuery"/></a></li>
+          <li><a href="#git-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/></a></li>
+          <li><a href="#npm-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm"/></a></li>
+          <li><a href="#gulp-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" alt="Gulp"/></a></li>
+          <li><a href="#eslint-section"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" alt="Eslint"/></a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <h2>HTML <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="symbol"></h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>HTML (Hypertext Markup Language) is the standard markup language for creating web pages.</li>
+          <li>It defines the structure and content of a webpage using a hierarchical structure of tags.</li>
+          <li>Basic Syntax:</li>
+          <code>&lt;!DOCTYPE html&gt;</code> - Specifies the document type.<br>
+          <code>&lt;html&gt;</code> - Represents the root element of an HTML page.<br>
+          <code>&lt;head&gt;</code> - Contains metadata and other head elements.<br>
+          <code>&lt;body&gt;</code> - Represents the visible content of the webpage.<br>
+          </li>
+          <li>Semantic HTML: Use semantic elements to give meaning and structure to the content, improving accessibility and
+            search engine optimization (SEO).</li>
+          <li>HTML Elements: Learn about essential elements like headings (<code>&lt;h1&gt;</code> to
+            <code>&lt;h6&gt;</code>), paragraphs (<code>&lt;p&gt;</code>), links (<code>&lt;a&gt;</code>), images
+            (<code>&lt;img&gt;</code>), lists (<code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code>),
+            tables (<code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;td&gt;</code>),
+            forms (<code>&lt;form&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;button&gt;</code>), etc.</li>
+          <li>Attributes: Explore common attributes like <code>id</code>, <code>class</code>, <code>src</code>,
+            <code>href</code>, <code>alt</code>, <code>value</code>, <code>placeholder</code>, etc.</li>
+          <li>HTML Forms: Understand form elements and attributes, form validation, and handling form submission using
+            <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, and more.</li>
+          <li>HTML5 Features: Discover new HTML5 features, including multimedia elements like <code>&lt;video&gt;</code> and
+            <code>&lt;audio&gt;</code>, drawing graphics with <code>&lt;canvas&gt;</code>, client-side storage with
+            <code>&lt;localStorage&gt;</code> and <code>&lt;sessionStorage&gt;</code>, and progress indicators with
+            <code>&lt;progress&gt;</code>.</li>
+          <li>Best Practices: Follow best practices for clean and maintainable HTML code, such as proper indentation, closing
+            tags, avoiding inline styles, and separating structure (HTML), presentation (CSS), and behavior (JavaScript).</li>
+        </ul>
+        <p>Resources:</p>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs: HTML</a></li>
+          <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools: HTML Tutorial</a></li>
+          <li><a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">HTML Crash Course For Absolute Beginners
+              (YouTube)</a></li>
         </ul>
       </section>
-   
+  
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
-          <li>A margin indicates how much space we want around the outside of an element</li>
-          <li>A padding indicates how much space we want around the content inside an element</li>
+          <li>CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation and formatting of a
+            document written in HTML.</li>
+          <li>It provides a way to control the appearance of web pages, including layout, colors, fonts, and more.</li>
+          <li>Basic Syntax:</li>
+          <code>selector { property: value; }</code> - Selects HTML elements and applies styles to them.<br>
+          <li>Selectors: Learn about various selectors like element selector, class selector, ID selector, attribute selector,
+            and more.</li>
+          <li>Properties: Explore common CSS properties such as color, font-family, margin, padding, background, border, and
+            many others.</li>
+          <li>CSS Box Model: Understand the concept of box model, which includes content, padding, border, and margin.</li>
+          <li>CSS Layout: Learn how to create different layouts using CSS, including inline, block, inline-block, float, and
+            flexbox.</li>
+          <li>CSS Selectors and Specificity: Gain knowledge about selector specificity and how it affects CSS rule precedence.
+          </li>
+          <li>CSS Pseudo-classes and Pseudo-elements: Discover pseudo-classes like :hover, :active, :focus, and pseudo-elements
+            like ::before, ::after.</li>
+          <li>Responsive Web Design: Learn techniques for creating responsive websites that adapt to different screen sizes and
+            devices.</li>
+          <li>CSS Transitions and Animations: Apply smooth transitions and animations to elements using CSS properties and
+            keyframes.</li>
+          <li>CSS Frameworks: Explore popular CSS frameworks like Bootstrap and Foundation that provide pre-built styles and
+            components.</li>
+          <li>Best Practices: Follow best practices for organizing and optimizing CSS code, including code indentation,
+            commenting, and avoiding CSS conflicts.</li>
         </ul>
-      </section>
-   
-      <section class="card" id="git-section">
-        <h2>Git</h2>
+        <p>Resources:</p>
         <ul>
-            <li>git status: checks what branch we are currently on</li>
-            <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs: CSS</a></li>
+          <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools: CSS Tutorial</a></li>
+          <li><a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" target="_blank">CSS Crash Course For Absolute Beginners
+              (YouTube)</a></li>
         </ul>
       </section>
-   
+  
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>JavaScript is a high-level programming language that adds interactivity and dynamic behavior to web pages.</li>
+          <li>It is primarily used for client-side scripting but can also be used for server-side development (Node.js).</li>
+          <li>Basic Syntax:</li>
+          <code>variable = value;</code> - Declares and assigns a value to a variable.<br>
+          <code>functionName(parameters) { // code }</code> - Defines a function.<br>
+          <code>if (condition) { // code }</code> - Executes code based on a condition.<br>
+          <code>for (initialization; condition; update) { // code }</code> - Creates a loop that executes code repeatedly.<br>
+          </li>
+          <li>Data Types: Understand different data types in JavaScript, such as numbers, strings, booleans, arrays, objects,
+            and more.</li>
+          <li>Operators: Learn about arithmetic, assignment, comparison, logical, and other operators used in JavaScript.</li>
+          <li>Control Flow: Explore conditional statements (if/else, switch), loops (for, while, do-while), and control flow
+            structures.</li>
+          <li>DOM Manipulation: Interact with the Document Object Model (DOM) to modify HTML elements, handle events, and
+            update the page dynamically.</li>
+          <li>Functions: Understand the concept of functions, parameter passing, return values, and how to define and invoke
+            functions in JavaScript.</li>
+          <li>Arrays: Work with arrays, perform array operations, iterate over arrays, and use built-in array methods in
+            JavaScript.</li>
+          <li>Objects: Learn about objects, object properties, methods, object constructors, and object-oriented programming
+            concepts.</li>
+          <li>Error Handling: Handle errors using try-catch statements, throw custom errors, and understand JavaScript's error
+            handling mechanism.</li>
+          <li>Asynchronous JavaScript: Explore concepts like callbacks, promises, async/await, and AJAX for handling
+            asynchronous operations.</li>
+          <li>ES6+ Features: Discover modern JavaScript features introduced in ECMAScript 6 (ES6) and later versions.</li>
+          <li>Best Practices: Follow best practices for writing clean and efficient JavaScript code, including code
+            organization, naming conventions, and optimization techniques.</li>
+        </ul>
+        <p>Resources:</p>
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN Web Docs: JavaScript</a>
+          </li>
+          <li><a href="https://www.w3schools.com/js/" target="_blank">W3Schools: JavaScript Tutorial</a></li>
+          <li><a href="https://www.youtube.com/watch?v=W6NZfCO5SIk" target="_blank">JavaScript Crash Course For Beginners
+              (YouTube)</a></li>
         </ul>
       </section>
+  
+      <section class="card" id="react-section">
+        <h2>React</h2>
+        <ul>
+          <li>React is a JavaScript library for building user interfaces.</li>
+          <li>It allows you to create reusable UI components and manage the state of your application efficiently.</li>
+          <li>Key Concepts:</li>
+          <code>Components</code> - Build UIs using components that encapsulate their own logic and rendering.<br>
+          <code>JSX</code> - Write HTML-like syntax within JavaScript for expressing UI components.<br>
+          <code>Props</code> - Pass data from a parent component to a child component.<br>
+          <code>State</code> - Manage component-specific data that can change over time.<br>
+          <code>Lifecycle Methods</code> - Control the behavior of components during different phases of their lifecycle.<br>
+          <code>Virtual DOM</code> - React's efficient way of updating the actual DOM based on changes in the virtual DOM.<br>
+          </li>
+          <li>React Hooks: Learn about the useState, useEffect, useContext, and other hooks introduced in React to manage
+            state
+            and side effects in functional components.</li>
+          <li>React Router: Use React Router to add routing functionality to your React applications and create multi-page
+            experiences.</li>
+          <li>React Forms: Handle form input and validation using controlled components and form libraries in React.</li>
+          <li>React Context: Share data across multiple components without passing props using React Context.</li>
+          <li>React Redux: Manage application state using Redux, a predictable state container for JavaScript applications.
+          </li>
+          <li>React Best Practices: Follow best practices for structuring React components, managing state, optimizing
+            performance, and writing clean and reusable code.</li>
+        </ul>
+        <p>Resources:</p>
+        <ul>
+          <li><a href="https://reactjs.org/" target="_blank">React Documentation</a></li>
+          <li><a href="https://www.w3schools.com/react/default.asp" target="_blank">WeSchools: React Tutorial</a></li>
+          <li><a href="https://reactrouter.com/" target="_blank">React Router Documentation</a></li>
+          <li><a href="https://redux.js.org/" target="_blank">Redux Documentation</a></li>
+        </ul>
+      </section>
+  
+      <section class="card" id="angular-section">
+        <h2>Angular</h2>
+        <ul>
+          <li>Angular is a popular JavaScript framework for building dynamic web applications.</li>
+          <li>It provides a comprehensive set of features for developing scalable and maintainable web projects.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Component-based architecture</li>
+            <li>Two-way data binding</li>
+            <li>Dependency injection</li>
+            <li>Routing and navigation</li>
+            <li>Template-driven and reactive forms</li>
+            <li>HTTP services</li>
+            <li>Testing utilities</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://angular.io/docs" target="_blank">Angular Documentation</a></li>
+            <li><a href="https://www.w3schools.com/angular/" target="_blank">W3Schools: Angular Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="vue-section">
+        <h2>Vue.js</h2>
+        <ul>
+          <li>Vue.js is a progressive JavaScript framework for building user interfaces.</li>
+          <li>It is designed to be easy to understand and integrate into existing projects.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Declarative rendering</li>
+            <li>Component-based architecture</li>
+            <li>Reactivity and data binding</li>
+            <li>Virtual DOM</li>
+            <li>Directives and filters</li>
+            <li>Routing and state management</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://vuejs.org/" target="_blank">Vue.js Documentation</a></li>
+            <li><a href="https://www.w3schools.com/vue/" target="_blank">W3Schools: Vue.js Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="bootstrap-section">
+        <h2>Bootstrap</h2>
+        <ul>
+          <li>Bootstrap is a popular CSS framework that simplifies the process of building responsive web pages.</li>
+          <li>It provides a collection of pre-built components and styles for creating modern and mobile-friendly designs.
+          </li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Responsive grid system</li>
+            <li>Typography and form styles</li>
+            <li>Navigation and dropdowns</li>
+            <li>Alerts and badges</li>
+            <li>Modals and carousels</li>
+            <li>Utility classes</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://getbootstrap.com/docs" target="_blank">Bootstrap Documentation</a></li>
+            <li><a href="https://www.w3schools.com/bootstrap/" target="_blank">W3Schools: Bootstrap Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="sass-section">
+        <h2>Sass</h2>
+        <ul>
+          <li>Sass is a CSS preprocessor that extends the capabilities of CSS with features like variables, mixins, and
+            nesting.</li>
+          <li>It helps to write cleaner and more maintainable CSS code.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Variables and calculations</li>
+            <li>Mixins and functions</li>
+            <li>Nesting and parent selectors</li>
+            <li>Partials and imports</li>
+            <li>Control directives</li>
+            <li>Extends and placeholders</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://sass-lang.com/guide" target="_blank">Sass Guide</a></li>
+            <li><a href="https://www.w3schools.com/sass/" target="_blank">W3Schools: Sass Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="typescript-section">
+        <h2>TypeScript</h2>
+        <ul>
+          <li>TypeScript is a statically typed superset of JavaScript that compiles to plain JavaScript.</li>
+          <li>It enhances JavaScript with optional static types, classes, interfaces, and other features for large-scale
+            applications.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Static typing and type inference</li>
+            <li>Classes and inheritance</li>
+            <li>Interfaces and type declarations</li>
+            <li>Generics</li>
+            <li>Modules and namespaces</li>
+            <li>Decorators</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://www.typescriptlang.org/docs" target="_blank">TypeScript Documentation</a></li>
+            <li><a href="https://www.w3schools.com/ts/" target="_blank">W3Schools: TypeScript Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="webpack-section">
+        <h2>Webpack</h2>
+        <ul>
+          <li>Webpack is a popular module bundler for JavaScript applications.</li>
+          <li>It allows you to bundle and optimize your application's assets, including JavaScript, CSS, and images.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Module bundling and dependency management</li>
+            <li>Code splitting and lazy loading</li>
+            <li>Asset management and optimization</li>
+            <li>Loaders and plugins</li>
+            <li>Development server and hot module replacement</li>
+            <li>Integration with other build tools and frameworks</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://webpack.js.org/guides" target="_blank">Webpack Guides</a></li>
+            <li><a href="https://www.w3schools.com/whatis/whatis_webpack.asp" target="_blank">W3Schools: Webpack Tutorial</a>
+            </li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="babel-section">
+        <h2>Babel</h2>
+        <ul>
+          <li>Babel is a JavaScript compiler that allows you to write code using the latest ECMAScript standards and transpile
+            it
+            into backward-compatible versions of JavaScript.</li>
+          <li>It helps to ensure your code works in older browsers and environments.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>ECMAScript compatibility</li>
+            <li>JavaScript transformations</li>
+            <li>Plugin system</li>
+            <li>Integration with build tools and frameworks</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://babeljs.io/docs" target="_blank">Babel Documentation</a></li>
+            <li><a href="https://www.w3schools.com/whatis/whatis_babel.asp" target="_blank">W3Schools: Babel Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="jquery-section">
+        <h2>jQuery</h2>
+        <ul>
+          <li>jQuery is a fast, small, and feature-rich JavaScript library.</li>
+          <li>It simplifies HTML document traversal, event handling, animating, and Ajax interactions for rapid web
+            development.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>DOM manipulation</li>
+            <li>Event handling</li>
+            <li>Animations and effects</li>
+            <li>Ajax requests</li>
+            <li>Utilities and plugins</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://jquery.com/" target="_blank">jQuery Official Website</a></li>
+            <li><a href="https://www.w3schools.com/jquery/" target="_blank">W3Schools: jQuery Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Git is a distributed version control system for tracking changes in source code during software development.
+          </li>
+          <li>It allows multiple developers to collaborate on a project and manage code versions effectively.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Committing and branching</li>
+            <li>Merging and resolving conflicts</li>
+            <li>Remote repositories</li>
+            <li>Tagging and versioning</li>
+            <li>Stashing and cherry-picking</li>
+            <li>Collaboration workflows</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://git-scm.com/doc" target="_blank">Git Documentation</a></li>
+            <li><a href="https://www.w3schools.com/git/" target="_blank">W3Schools: Git Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="npm-section">
+        <h2>npm</h2>
+        <ul>
+          <li>npm (Node Package Manager) is the default package manager for JavaScript runtime environment Node.js.</li>
+          <li>It allows developers to discover, share, and reuse code packages to build JavaScript projects.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Package installation and management</li>
+            <li>Dependency tracking and resolution</li>
+            <li>Script execution</li>
+            <li>Publishing and versioning</li>
+            <li>Scoping and organization</li>
+            <li>Registry and package discovery</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://docs.npmjs.com/" target="_blank">npm Documentation</a></li>
+            <li><a href="https://www.w3schools.com/nodejs/nodejs_npm.asp" target="_blank">W3Schools: npm Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="gulp-section">
+        <h2>Gulp</h2>
+        <ul>
+          <li>Gulp is a JavaScript-based task runner used for automating repetitive tasks in web development workflows.</li>
+          <li>It simplifies tasks such as minification, compilation, testing, and deployment.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Task automation and orchestration</li>
+            <li>Streaming build system</li>
+            <li>Code transformations and optimizations</li>
+            <li>File watching and reloading</li>
+            <li>Integration with other build tools and frameworks</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://gulpjs.com/docs/" target="_blank">Gulp Documentation</a></li>
+            <li><a href="https://www.w3schools.com/gulp/" target="_blank">W3Schools: Gulp Tutorial</a></li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="eslint-section">
+        <h2>ESLint</h2>
+        <ul>
+          <li>ESLint is a popular JavaScript linter that analyzes code for potential errors and enforces consistent coding
+            styles.</li>
+          <li>It helps developers maintain code quality, improve readability, and catch common programming mistakes.</li>
+          <li>Key Features:</li>
+          <ul>
+            <li>Configurable rule sets</li>
+            <li>Code analysis and error reporting</li>
+            <li>Code formatting and auto-fixing</li>
+            <li>Integration with build tools and editors</li>
+            <li>Extensibility and plugin ecosystem</li>
+          </ul>
+          <li>Resources:</li>
+          <ul>
+            <li><a href="https://eslint.org/docs/" target="_blank">ESLint Documentation</a></li>
+            <li><a href="https://www.w3schools.com/whatis/whatis_eslint.asp" target="_blank">W3Schools: ESLint Tutorial</a>
+            </li>
+          </ul>
+        </ul>
+      </section>
+
+      
     </main>
 
     <footer>
